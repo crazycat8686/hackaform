@@ -22,6 +22,10 @@ app.use('/api/teams', teamRoutes);
 app.get('/api/health', (req, res) => {
   res.json({ message: 'Server is running!' });
 });
+console.log("MONGODB_URI:", process.env.MONGODB_URI ? "Loaded ✅" : "Missing ❌");
+console.log("All ENV KEYS:", Object.keys(process.env));
+console.log("MONGODB_URI RAW:", process.env.MONGODB_URI);
+
 
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_URI)
