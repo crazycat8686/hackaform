@@ -14,7 +14,7 @@
   --text-secondary: #333333; /* Slightly lighter dark text */
   --text-muted: #666666; /* Muted grey text */
   --border-color: #cccccc; /* Light grey border */
-  --shadow-inbox: 5px 20px 34px 12px  rgba(194, 85, 46, 0.568);
+  --shadow-inbox: 5px 20px 34px 12px  rgba(150, 69, 40, 0.459);
   --shadow-light: rgba(0, 0, 0, 0.05); /* Very light shadow */
   --shadow-dark: rgba(0, 0, 0, 0.2); /* Darker shadow */
   --shadow-inset: inset 2px 2px 5px var(--shadow-light), inset -2px -2px 5px var(--shadow-light);
@@ -32,7 +32,7 @@
   --text-secondary: #e0e0e0; /* Slightly darker light text */
   --text-muted: #aaaaaa; /* Muted grey text */
   --border-color: #3a3a3a; /* Dark border */
-    --shadow-inbox: 5px 12px 34px 12px  rgba(197, 84, 39, 0.356);
+    --shadow-inbox: 5px 12px 34px 12px  rgba(116, 57, 34, 0.356);
 
   --shadow-light: rgba(255, 255, 255, 0.05); /* Very light shadow */
   --shadow-dark: rgba(0, 0, 0, 0.3); /* Darker shadow */
